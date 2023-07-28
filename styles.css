@@ -36,24 +36,24 @@ body{
 .main{
     width: 100%;
     height: 100%;
-    min-width: 300px;
+    min-width: 18.75rem;
 }
 
 .container_cards{
     background-image: url(images/bg-main-mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 300px;
-    height: 210px;
-    padding: 20px;
+    min-width: 18.75rem;
+    height: 13.125rem;
+    padding: 1.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .subcontainer_cards{
-min-width: 300px;
+min-width: 18.75rem;
 width: 100%;
-max-width: 330px;
+max-width: 20.625rem;
 height: 100%;
 position: relative;
 
@@ -64,17 +64,17 @@ position: relative;
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    top: 10px;
+    top: 0.625rem;
     right: 0px;
-    width: 270px;
-    height: 200px;
+    width: 16.875rem;
+    height: 12.5rem;
 }
 
 .number-back-card{
     position: relative;
-    left: 210px;
-    top: 58px;
-    font-size: .7rem;
+    left: 13.125rem;
+    top: 3.625rem;
+    font-size: 0.7rem;
     color: var(--White);
 }
 
@@ -83,55 +83,55 @@ position: relative;
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    bottom: -123px;
-    width: 270px;
-    height: 200px;
-    padding: 20px;
+    bottom: -7.6875rem;
+    width: 16.875rem;
+    height: 12.5rem;
+    padding: 1.25rem;
 }
 .card-logo{
-    width: 50px;
+    width: 3.125rem;
 }
 
 .container_date-user{
     position: relative;
-    top: 40px;
+    top: 2.5rem;
     display: flex;
     justify-content: space-between;
     color: var(--White);
     font-weight: 500;
     text-transform: uppercase;
     font-size: .7rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
 
 }
 .number-front-card{
     position: relative;
     display: inline-block;
-    top: 30px;
+    top: 1.875rem;
     right: 0px;
     color: var(--White);
-    width: 300px;
-    letter-spacing: 1px;
+    width: 18.75rem;
+    letter-spacing: 0.0625rem;
 }
 
 .container_form{
-    padding: 20px;
-    margin-top: 50px;
+    padding: 1.25rem;
+    margin-top: 3.125rem;
     display: flex;
     flex-direction: column;
-    min-width: 300px;
+    min-width: 18.75rem;
     /* display: none; */
 }
 
 .cardholder, .card-number, .date{
-    margin:10px 0;
+    margin:0.625rem 0;
 }
  
 .inputs{
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 0.625rem;
+    margin-bottom: 0.625rem;
+    border-radius: 0.625rem;
+    border: 0.0625rem solid rgba(0, 0, 0, 0.125);
     cursor: pointer;
     
 }
@@ -141,55 +141,55 @@ position: relative;
     /* border: 1px solid; */
     border-image:linear-gradient(to bottom, hsl(249, 99%, 64%), hsl(278, 94%, 30%));
     border-image-slice: 1;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 
 }
 
 
 .container_hidden{
     display: none;
-    padding: 20px;
-    margin-top: 50px;
+    padding: 1.25rem;
+    margin-top: 3.125rem;
     /* display: flex; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 300px;
+    min-width: 18.75rem;
 }
 .complete-icon{
-    width: 100px;
-    margin: 50px 0;
+    width: 6.25rem;
+    margin: 3.125rem 0;
 }
 
 .title{
     color: var(--Very-dark-violet);
     text-transform: uppercase;
     font-weight: 500;
-    letter-spacing: 5px;
-    margin-bottom: 20px;
+    letter-spacing: 0.3125rem;
+    margin-bottom: 1.25rem;
 }
 .subtitle{
     font-size: 1.3rem;
     color: var(--Dark-grayish-violet);
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 .continue-btn{
-    padding: 20px;
+    padding: 1.25rem;
     width: 100%;
     background-color: var(--Very-dark-violet);
     color: var(--White);
-    border-radius: 10px;
+    border-radius: 0.625rem;
     border: none;
     cursor: pointer;
 }
 
 
 .submit{
-    padding: 20px;
-    margin-top: 20px;
+    padding: 1.25rem;
+    margin-top: 1.25rem;
     background-color: var(--Very-dark-violet);
     color: var(--White);
-    border-radius: 10px;
+    border-radius: 0.625rem;
     border: none;
     cursor: pointer;
 }
@@ -234,17 +234,16 @@ position: relative;
     font-size: .8rem;
     font-weight: 500;
     color: var(--Very-dark-violet);
-    width: 250px;
-    margin: 5px 0;
+    margin: 0.3125rem 0;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
 }
 
 .span_cardnumber_empty,
 .span_cardholder_empty,
 .span_invalid_cardholder,
 .span_month_empty, .span_year_empty, .span_cvc_empty, .span_wrong_format{
-    margin-top: 5px;
+    margin-top: 0.3125rem;
     font-size: .6rem;
     color: red;
     display: none;
@@ -255,41 +254,65 @@ position: relative;
     font-weight: 500;
     color: var(--Very-dark-violet);
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
 
 }
+.subcontainer_form{
+    display: flex;
+    flex-direction: column;
+    max-width: unset;
+    z-index: 99;
+}
 
-@media (min-width:800px){
+@media (min-width:50rem){
+
+    html{
+        font-size: 20px;
+        
+    }
     main{
         display: flex;
-        flex-direction: row;
-        
-        width: 100%;
     }
 
     .container_cards{
         min-height: 100vh;
+        min-width: 100px;
+        /* max-width: 200px; */
+        width:30%;
         background-image: url(images/bg-main-desktop.png);
         background-size: cover;
         justify-content: center;
         align-self: center;
     }
+    .subcontainer_cards{
+        min-width: 10%;
+        width: 100%;
+        
+        }
 
     .subcontainer_cards{
 height: unset;
     }
     .container_form{
         /* width: 100%; */
-        max-width: 1100px;
-        padding: 200px 20%;
-        min-width: 650px;
+        width: 70%;
+        padding: 6.25rem 0% 6.25rem 10% ;
+        /* min-width: 40.625rem; */
+        justify-content: center;
+        align-items: center;
     }
+.subcontainer_form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    z-index: 99;
+}
 
     .container_back-card{
-        left: 150px;
+       right: -30%;
     }
     .container_front-card{
-        left: 100px;
-        top: -170px;
+        right: -45%;
+        top: -10.625rem;
     }
 }
