@@ -34,8 +34,7 @@ body{
 }
 
 .main{
-    width: 100%;
-    height: 100%;
+   
     min-width: 18.75rem;
 }
 
@@ -73,7 +72,7 @@ position: relative;
 .number-back-card{
     position: relative;
     left: 13.125rem;
-    top: 3.625rem;
+    top: 77px;
     font-size: 0.7rem;
     color: var(--White);
 }
@@ -119,7 +118,14 @@ position: relative;
     margin-top: 3.125rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+
+    
     min-width: 18.75rem;
+    
     /* display: none; */
 }
 
@@ -202,6 +208,7 @@ position: relative;
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-right: 5px;
 }
 .container_date-month{
     width: 50%;
@@ -237,6 +244,7 @@ position: relative;
     margin: 0.3125rem 0;
     text-transform: uppercase;
     letter-spacing: 0.0625rem;
+    white-space: nowrap;
 }
 
 .span_cardnumber_empty,
@@ -260,7 +268,8 @@ position: relative;
 .subcontainer_form{
     display: flex;
     flex-direction: column;
-    max-width: unset;
+    max-width: 500px;
+    width: 100%;
     z-index: 99;
 }
 
@@ -287,12 +296,11 @@ position: relative;
     .subcontainer_cards{
         min-width: 10%;
         width: 100%;
+height: unset;
+
         
         }
 
-    .subcontainer_cards{
-height: unset;
-    }
     .container_form{
         /* width: 100%; */
         width: 70%;
@@ -306,6 +314,7 @@ height: unset;
     flex-direction: column;
     max-width: 400px;
     z-index: 99;
+
 }
 
     .container_back-card{
